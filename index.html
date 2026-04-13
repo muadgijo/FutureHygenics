@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>buds Bath Wipes | Future Hygienic Products</title>
+  <meta
+    name="description"
+    content="buds Extra Large Bath Wipes from Future Hygienic Products. Alcohol free, with Aloe Vera and Vitamin E, 10 wipes, 32 x 32 cm."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700;800&family=Sora:wght@500;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    :root {
+      --bg: #eef8ff;
+      --card: #ffffff;
+      --ink: #10203e;
+      --muted: #4a5f8a;
+      --line: #d4e6f8;
+      --brand-blue: #2a2f99;
+      --brand-green: #08a36f;
+      --accent: #ffce25;
+      --deep: #121e8b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Barlow", Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 18%, rgba(70, 183, 255, 0.25) 0, rgba(70, 183, 255, 0.25) 5px, transparent 6px),
+        radial-gradient(circle at 75% 10%, rgba(70, 183, 255, 0.18) 0, rgba(70, 183, 255, 0.18) 4px, transparent 5px),
+        radial-gradient(circle at 92% 65%, rgba(70, 183, 255, 0.2) 0, rgba(70, 183, 255, 0.2) 6px, transparent 7px),
+        radial-gradient(circle at 8% 74%, rgba(70, 183, 255, 0.16) 0, rgba(70, 183, 255, 0.16) 4px, transparent 5px),
+        var(--bg);
+      background-size: 280px 280px, 220px 220px, 300px 300px, 210px 210px, auto;
+      line-height: 1.45;
+    }
+
+    .wrap {
+      width: min(1100px, 92vw);
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 20px 0 10px;
+    }
+
+    .brand-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .logo-buds {
+      font-family: "Sora", sans-serif;
+      font-size: clamp(2.1rem, 4.2vw, 3.2rem);
+      font-weight: 800;
+      color: var(--brand-blue);
+      line-height: 1;
+    }
+
+    .logo-buds small {
+      display: block;
+      font-family: "Barlow", sans-serif;
+      font-size: 1rem;
+      font-style: italic;
+      font-weight: 500;
+      margin-top: 4px;
+      letter-spacing: 0.01em;
+      color: #34408d;
+    }
+
+    .logo-future {
+      text-align: right;
+      font-family: "Sora", sans-serif;
+      color: var(--brand-green);
+      font-weight: 800;
+      font-size: clamp(2rem, 4.4vw, 3.4rem);
+      line-height: 1;
+    }
+
+    .logo-future span {
+      display: block;
+      letter-spacing: 0.21em;
+      font-family: "Barlow", sans-serif;
+      font-size: 0.8rem;
+      margin-top: 6px;
+      color: #0077a4;
+      font-weight: 700;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.2fr 0.9fr;
+      gap: 30px;
+      align-items: center;
+      margin-top: 16px;
+    }
+
+    .image-card {
+      background: linear-gradient(160deg, #ffffff 0%, #f5fbff 100%);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 16px;
+      box-shadow: 0 20px 38px rgba(16, 32, 62, 0.14);
+    }
+
+    .image-card img {
+      width: 100%;
+      display: block;
+      border-radius: 16px;
+    }
+
+    .pitch {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 16px 32px rgba(24, 48, 80, 0.1);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      color: var(--brand-blue);
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      background: #edf1ff;
+      border-radius: 999px;
+      padding: 7px 12px;
+    }
+
+    h1 {
+      margin: 12px 0 10px;
+      font-family: "Sora", sans-serif;
+      color: var(--deep);
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      line-height: 1.05;
+    }
+
+    .pitch p {
+      color: var(--muted);
+      margin: 0 0 18px;
+      font-size: 1.05rem;
+    }
+
+    .badge-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .badge {
+      border: 1px solid #cfe3f8;
+      color: #1d3f77;
+      background: #f4faff;
+      border-radius: 12px;
+      padding: 10px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+      margin: 24px 0 34px;
+    }
+
+    .card {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 22px;
+      box-shadow: 0 10px 24px rgba(24, 48, 80, 0.07);
+    }
+
+    .card h2 {
+      margin: 0 0 12px;
+      font-size: 1.35rem;
+      font-family: "Sora", sans-serif;
+      color: var(--deep);
+    }
+
+    .point-list {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .point-list li {
+      padding: 8px 0;
+      border-bottom: 1px solid #e8f2fb;
+      color: #1d2f55;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    .point-list li:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .use-steps {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    .step {
+      background: #f8fcff;
+      border: 1px solid #d7e9fa;
+      border-radius: 14px;
+      padding: 14px 12px;
+      font-size: 0.94rem;
+      color: #1f3764;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .cta {
+      margin: 12px 0 34px;
+      background: linear-gradient(100deg, #1f33a0 0%, #07a5d9 100%);
+      color: white;
+      border-radius: 20px;
+      padding: 24px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px 26px;
+      align-items: center;
+    }
+
+    .cta h3 {
+      margin: 0 0 6px;
+      font-family: "Sora", sans-serif;
+      font-size: clamp(1.2rem, 3vw, 1.8rem);
+    }
+
+    .cta p {
+      margin: 0;
+      color: #d7ebff;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: flex-end;
+    }
+
+    .contact a {
+      text-decoration: none;
+      color: #12326d;
+      background: #ffffff;
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-weight: 800;
+      font-size: 0.95rem;
+      border: 2px solid #c7e2ff;
+    }
+
+    footer {
+      border-top: 1px solid #c4def6;
+      margin-bottom: 20px;
+      padding-top: 18px;
+      color: #28426f;
+      font-weight: 500;
+      text-align: center;
+      font-size: 0.98rem;
+    }
+
+    @media (max-width: 920px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .logo-future {
+        text-align: left;
+      }
+
+      .cta {
+        grid-template-columns: 1fr;
+      }
+
+      .contact {
+        justify-content: flex-start;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .use-steps {
+        grid-template-columns: 1fr;
+      }
+
+      .badge-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="brand-row">
+      <div class="logo-buds">buds<small>Refreshing & Rejuvenating</small></div>
+      <div class="logo-future">future<span>HYGIENIC PRODUCTS</span></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="image-card">
+        <img src="./Meta image.jpg" alt="buds bath wipes product poster" />
+      </div>
+      <article class="pitch">
+        <span class="eyebrow">Extra Large Bath Wipes</span>
+        <h1>Clean. Refresh. Protect. Anytime.</h1>
+        <p>
+          buds hygiene wipes are alcohol free and made for quick body cleansing
+          when a full bath is not possible. Enriched with Aloe Vera and Vitamin E.
+        </p>
+        <div class="badge-grid">
+          <div class="badge">10 Wipes</div>
+          <div class="badge">32 x 32 cm</div>
+          <div class="badge">With Aloe Vera</div>
+          <div class="badge">With Vitamin E</div>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid-2">
+      <article class="card">
+        <h2>Why Buds</h2>
+        <ul class="point-list">
+          <li>Diamond embossed for better scrub</li>
+          <li>UV sterilized production process</li>
+          <li>Cleanses and moisturizes skin</li>
+          <li>Nourishes and protects skin barrier</li>
+          <li>Ready to use unisex cleansing towel</li>
+          <li>Microwaveable with refreshing fragrance</li>
+          <li>99.9% germ protection</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Direction of Use</h2>
+        <div class="use-steps">
+          <div class="step">1. Peel front label slowly.</div>
+          <div class="step">2. Pull out wipes as needed.</div>
+          <div class="step">3. Reseal label after each use.</div>
+        </div>
+      </article>
+    </section>
+
+    <section class="cta">
+      <div>
+        <h3>Future Hygienic Products, Kerala</h3>
+        <p>
+          Regd. Office: Chegannur, Alappuzha, Kerala 689122 | Factory:
+          Changanacherry, Kottayam, Kerala 686105
+        </p>
+      </div>
+      <div class="contact">
+        <a href="tel:+919447559487">+91 94475 59487</a>
+        <a href="tel:+917558896906">+91 75588 96906</a>
+        <a href="mailto:futurehygienic@gmail.com">futurehygienic@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    buds by Future Hygienic Products | Alcohol Free Hygiene Wipes
+  </footer>
+</body>
+</html>
