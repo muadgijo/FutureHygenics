@@ -1,216 +1,48 @@
-# 📄 Website Maintenance & Development Guide
+# FutureHygenics
 
-**Project:** buds — Future Hygienic Products
-**Type:** Static Company Website
-**Location:** Changanacherry, Kerala, India
+[![Website Status](https://img.shields.io/website?up_message=online&url=https%3A%2F%2Ffuturehygenics.pages.dev%2F)](https://futurehygenics.pages.dev/)
 
----
-
-# 🎯 Purpose of this Document
-
-This file is the **single source of truth** for:
-
-* How the website is built
-* How to update it
-* How to deploy it
-* How to scale it later
+A clean, modern HTML-based website focused on innovative hygiene solutions for the future.  
+Visit the live site: [futurehygenics.pages.dev](https://futurehygenics.pages.dev/)
 
 ---
 
-# 🧱 Current Architecture (v1)
+## Project Overview
 
-## Stack
+FutureHygenics is a static, lightweight site built entirely with HTML, offering insights, resources, and features in the domain of next-generation hygiene. Designed for fast deployment and easy maintenance, it is aimed at presenting ideas and solutions for a healthier tomorrow.
 
-* HTML (single page)
-* Tailwind CSS (CDN)
-* No JavaScript logic
-* No backend
+## Live Demo
 
-## Hosting
+See it in action:  
+https://futurehygenics.pages.dev/
 
-* Cloudflare Pages / Netlify
+## Features
 
-## Key Principle
+- 100% HTML: No JavaScript or backend required.
+- Responsive layout for desktop and mobile.
+- Modern and clean design.
+- Fast and secure deployment via Cloudflare Pages.
 
-> Keep it simple, fast, and maintainable
+## Deployment
 
----
+This site is deployed using [Cloudflare Pages](https://pages.cloudflare.com/), with automatic updates on each push to the repository.
 
-# 📂 Project Structure
+## How to Use
 
-```
-project/
-├── index.html
-├── Meta_image.jpg
-└── README.md (this file)
-```
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/muadgijo/FutureHygenics.git
+    ```
+2. Open `index.html` in your browser to view the site locally.
 
----
+## Contributing
 
-# 🌐 Deployment Guide
+Contributions are welcome. Feel free to fork the repository and submit pull requests.
 
-## Option A — Cloudflare Pages (Recommended)
+## License
 
-1. Create GitHub repo
-2. Push files
-3. Connect repo to Cloudflare Pages
-4. Deploy
-
-## Option B — Netlify
-
-1. Drag and drop folder
-2. Site goes live instantly
+Distributed under the MIT License. See the [`LICENSE`](LICENSE) file for more information.
 
 ---
 
-# 🔄 How to Update the Website
-
-## Content changes (text, phone, etc.)
-
-* Open `index.html`
-* Edit directly
-* Save → redeploy
-
-## Image update
-
-* Replace `Meta_image.jpg`
-* Keep same file name OR update path in HTML
-
----
-
-# 📱 QA Checklist (Before Every Deploy)
-
-## Layout
-
-* [ ] No broken layout
-* [ ] Proper spacing
-* [ ] No overlapping text
-
-## Mobile
-
-* [ ] Works on small screens
-* [ ] No horizontal scroll
-* [ ] Text readable
-
-## Content
-
-* [ ] Phone numbers correct
-* [ ] Email correct
-* [ ] Location correct (Changanacherry, Kerala)
-
-## Performance
-
-* [ ] Loads fast
-* [ ] Image not too large
-
----
-
-# 🐞 Common Issues & Fixes
-
-## Site not updating
-
-* Clear cache
-* Redeploy
-
-## Image not showing
-
-* Check file name
-* Check path (`./Meta_image.jpg`)
-
-## Broken layout on mobile
-
-* Check font sizes
-* Check grid settings
-
----
-
-# 🔐 Security & Safety
-
-* No sensitive data stored
-* No backend → low risk
-* Hosting provides HTTPS automatically
-
----
-
-# 🎨 Design Rules (DO NOT BREAK)
-
-* No emojis
-* No gradients
-* No dark mode
-* No clutter
-* Keep layout minimal
-
----
-
-# 🧠 Content Rules
-
-* Use simple language
-* Avoid buzzwords
-* Keep sections short
-* Focus on clarity
-
----
-
-# 📈 Future Upgrade Plan
-
-## Phase 2 (Optional)
-
-* Add contact form (Formspree / EmailJS)
-* Add analytics (Google Analytics)
-
-## Phase 3 (Advanced)
-
-* Add authentication (Firebase / Supabase)
-* Add admin dashboard
-* Add backend (Flask or Node)
-
----
-
-# 🧩 Scalability Strategy
-
-Frontend stays:
-
-* Static + fast
-
-New features added separately:
-
-* Auth → external service
-* Backend → separate server
-
----
-
-# ⚠️ Things to Avoid
-
-* Don’t rebuild unnecessarily
-* Don’t add heavy frameworks
-* Don’t overdesign
-* Don’t add features without need
-
----
-
-# ✅ Definition of Done
-
-The site is considered complete when:
-
-* It is live on a public URL
-* It works on mobile
-* Contact works correctly
-* Client can share it
-
----
-
-# 📞 Contact Reference (for quick edits)
-
-* Phone: +91 94475 59487
-* Phone: +91 75588 96906
-* Phone: +91 99463 44121
-* Email: [futurehygienic@gmail.com](mailto:futurehygienic@gmail.com)
-* Location: Changanacherry, Kerala
-
----
-
-# 🧨 Final Rule
-
-> If you are unsure — simplify, don’t complicate.
-
----
+Crafted with care for a cleaner, smarter future.
